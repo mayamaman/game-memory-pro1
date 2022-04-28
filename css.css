@@ -1,0 +1,37 @@
+.table {
+  width: 500px;
+  margin: 30px;
+  gap: 12px;
+  background-color: blueviolet;
+}
+.cards {
+  background-color: aquamarine;
+  margin: 8px;
+  border: 3px black solid;
+
+  height: 100px;
+  gap: 5px;
+  box-shadow: rgb(16, 9, 0);
+  padding: 35px 35px 50px 40px;
+}
+
+.hidden {
+  /* מסתירה את התוכן של הקלפים */
+  content-visibility: hidden;
+  background-color: aqua;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 30px;
+  gap: 12px;
+  background-color: blueviolet;
+}
+.cards:hover {
+  color: aquamarine;
+  border: 3px rgb(240, 7, 7) solid;
+}
+.flip {
+  background-color: rgb(148, 120, 183);
+}
